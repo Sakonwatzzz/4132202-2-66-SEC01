@@ -5,8 +5,8 @@
     <input type="text" name="name" id="inp_name"><br>
     <label for="inp_prov">PROVINCE</label>
     <input type="text" name="prov" id="inp_prov"><br>
-    <button type="submit"> SAVE </button>
-    <button type="reset"> CANCLE </button>
+    <button type="submit" class="btn btn-primary"> SAVE </button>
+    <button type="reset" class="btn btn-danger"> CANCLE </button>
 </form>
 
 <script>

@@ -7,7 +7,7 @@ $prov = $_POST['prov'];
 
 
 try {
-   echo $sql = "INSERT INTO tb_member VALUES('$id','$name','$prov')";
+    $sql = "INSERT INTO tb_member VALUES('$id','$name','$prov')";
     mysqli_query($conn, $sql);
 } catch (Exception $e) {
     echo "Error";
